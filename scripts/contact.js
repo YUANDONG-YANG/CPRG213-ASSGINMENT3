@@ -4,14 +4,12 @@
 
 // Get the submit button element
 const SUBMIT_BUTTON = document.getElementById('submit-button');
-
+// Get the contact-page element
+const CONTACT_PAGE = document.getElementById('contact-page');
 // Add event listener for the click event
 SUBMIT_BUTTON.addEventListener('click', function (event) {
     // Prevent the default form submission behavior
     event.preventDefault();
-
-    // Get the contact-page element
-    const CONTACT_PAGE = document.getElementById('contact-page');
 
     // Create a new paragraph element
     const NEW_MESSAGE = document.createElement('p');
